@@ -1,0 +1,17 @@
+{
+  "name": "sistem-maklumat-pelajar",
+  "version": "1.0.0",
+  "description": "Projek Amali Web Application Prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "author": "Nama Pelajar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}

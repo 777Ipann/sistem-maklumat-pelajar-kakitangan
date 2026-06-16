@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.butang{
+    background:#198754;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.butang:hover{
+    background:#157347;
+}
+
+.kad-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:40px;
+}
+
+.kad{
+    background:white;
+    width:300px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.kad:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+.borang-container{
+    width:450px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+.borang-container h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0b5ed7;
+}
+
+#mesej,
+#keputusan{
+    text-align:center;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+.carian-container{
+    width:90%;
+    margin:auto;
+    padding:30px;
+}
+
+#senaraiPelajar{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:20px;
+}
+
+.kad-pelajar{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+}
+
+footer{
+    text-align:center;
+    background:#0d6efd;
+    color:white;
+    padding:15px;
+    margin-top:50px;
+}
+
+@media(max-width:768px){
+
+    .borang-container{
+        width:90%;
+    }
+
+    .hero h2{
+        font-size:30px;
+    }
+
+}
